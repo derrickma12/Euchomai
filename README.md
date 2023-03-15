@@ -31,6 +31,53 @@
     <footer>
         <p>&copy; 2023 My Blog. All rights reserved.</p>
     </footer>
+    
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #3b5998;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+header h1 {
+    display: inline;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+article {
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background: #3b5998;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
 
     <script src="scripts.js"></script>
 </body>
